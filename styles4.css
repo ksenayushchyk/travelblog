@@ -112,3 +112,11 @@ body {
     justify-content: center;
     background-color: lightpink;
 }
+.parallax {
+    background-image: url("pngkey.com-mountain-png-18458.png");
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
