@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightpink;
+    height: 50px;
+}
+
+.list {
+    display: inline;
+}
+
+.navmenu {
+    font-size: medium;
+    color: saddlebrown;
+}
+
+.head {
+    font-size: xx-large;
+    color: black;
+    border-width: 6px;
+    border-color: saddlebrown;
+    border-style: double;
+}
+
+.fonpart {
+    display: flex;
+    justify-content: center;
+    height: 800px;
+}
+
+.information {
+    height: 200px;
+    background-color: moccasin;
+}
+
+.list {
+    border-width: 2px;
+    border-color: purple;
+    border-style: groove;
+    padding: 10px 1px;
+}
+
+.a-list{
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.a-list:hover {
+    background-color: white;
+    color: black;
+    transition: 0.7s;
+}
+
+#inform {
+    padding-top: 30px;
+}
+
+.photo {
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-around;
+}
+
+.double-pic {
+    padding: 4%;
+    display: block;
+    height: 500px;
+    width: 600px;
+}
+
+.vl {
+    border-left: 6px dotted black;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.description {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-photo {
+    text-align: center;
+    font-size: 36px;
+}
+.photo-description {
+    font-weight: bold;
+    font-size: 16px;
+}
+.maininformation {
+    height: 60px;
+    background-color: black;
+    color: ivory;
+}
+
+.phone {
+    display: flex;
+    justify-content: center;
+    background-color: lightpink;
+}
+
+.inst {
+    display: flex;
+    justify-content: center;
+    background-color: lightpink;
+}
